@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Product details{% endblock %}
+
+{% block body %}
+  <h1>Product details</h1>
+  <p><strong>ID:</strong> {{ item.id }}</p>
+  <p><a href="{{ path('product_index') }}">Back</a></p>
+{% endblock %}

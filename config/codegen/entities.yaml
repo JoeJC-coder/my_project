@@ -1,0 +1,11 @@
+entities:
+  Product:
+    namespace: App\Entity
+    controller:
+      generate: true
+      route_prefix: /products
+      name_prefix: product_
+      template_dir: product
+    fields:
+      name: { type: string }
+      price: { type: float, default: 0 }
